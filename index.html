@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+   
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="currency">
+            <select name="" id="input_currency">
+                            <option value="INR" >INR</option>
+                            <option value="EUR">EUR</option>
+                            <option value="JPY">JPY</option>
+                            <option value="KZT">KZT</option>
+                            <option value="MXN">MXN</option>
+                            <option value="PKR">PKR</option>
+                            <option value="USD" selected>USD</option>
+                           
+            </select>
+            <input type="number" name="" id="input_amount" value="1">
+        </div>
+        <button id="exchange">
+                Convert 
+            </button>
+        <div class="currency">
+            <select name="" id="output_currency">
+                <option value="INR" selected>INR</option>
+                <option value="EUR">EUR</option>
+                <option value="JPY">JPY</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="PKR">PKR</option>
+                <option value="USD" >USD</option>
+            </select>
+            <input type="number" name="" id="output_amount" />
+        </div>
+        <div class="result">
+                <div class="rate" id="rate"></div>
+        </div>
+        
+    </div>
+</body>
+</html>

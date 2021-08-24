@@ -1,0 +1,14 @@
+.container {
+  margin-left: 550px;
+  margin-top: 85px;
+}
+.currency {
+  margin-bottom: 40px;
+}
+#exchange {
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+body {
+  background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+}
